@@ -1,6 +1,8 @@
 return {
   "Civitasv/cmake-tools.nvim",
-  opts = {},
+  opts = {
+    cmake_build_directory = "build",
+  },
   keys = {
     { "<leader>cb", "<cmd>CMakeBuild<cr>", desc = "Build" },
     { "<leader>cz", "<cmd>CMakeRun<cr>", desc = "Run Build" },
